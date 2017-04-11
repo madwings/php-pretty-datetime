@@ -67,7 +67,7 @@ class PrettyDateTime
 
         // Throw exception if the difference is NaN
         if (is_nan($difference)) {
-            throw new Exception('The difference between the DateTimes is NaN.');
+            throw new \Exception('The difference between the DateTimes is NaN.');
         }
 
         // Today
